@@ -30,17 +30,17 @@ var isPowerOfThree = function(n) {
 // Test Case 1:
 console.log("Test Case 1 - n = 27:");
 console.log("Expected: true");
-console.log("Actual:  ", letterCombinations("23"));
+console.log("Actual:  ", isPowerOfThree("23"));
 console.log();
 
 // Test Case 2: 
 console.log("Test Case 2 - n = 0:");
 console.log("Expected: false");
-console.log("Actual:  ", letterCombinations(""));
+console.log("Actual:  ", isPowerOfThree(""));
 console.log();
 
 // Test Case 3:
 console.log("Test Case 3 - n = -1:");
 console.log("Expected: false");
-console.log("Actual:  ", letterCombinations("2"));
+console.log("Actual:  ", isPowerOfThree("2"));
 console.log();
