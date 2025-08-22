@@ -17,3 +17,5 @@ class Solution:
                 word = helper(word)
             return word[k-1]
         return word
+
+print('test')
